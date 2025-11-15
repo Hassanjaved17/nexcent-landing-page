@@ -75,7 +75,7 @@
 
             }
         }
-
+/* Navbar Styling*/
         nav {
             display: flex;
             align-items: center;
@@ -140,7 +140,7 @@
             display: none;
         }
 
-        /* Hero Section */
+        /* Hero Section Styling */
         .hero {
             background: var(--silver);
             padding: 80px 0;
@@ -202,7 +202,7 @@
             background: var(--primary-color);
         }
 
-        /* Clients Section */
+        /* Clients Section Styling*/
         .clients {
             padding: 60px 0;
             text-align: center;
@@ -230,7 +230,7 @@
             height: 50px;
         }
 
-        /* Community Section */
+        /* Community Section Styling */
         .community {
             padding: 30px 0;
         }
@@ -293,7 +293,7 @@
             line-height: 1.8;
         }
 
-        /* Content Section */
+        /* Content Section Styling */
         .content-section {
             padding: 60px 0;
         }
@@ -328,7 +328,7 @@
             line-height: 1.8;
         }
 
-        /* Stats Section */
+        /* Stats Section Styling */
         .stats-section {
             background: var(--silver);
             padding: 60px 0;
@@ -362,7 +362,7 @@
             color: var(--grey);
         }
 
-/* Testimonial Section Styles */
+/* Testimonial Section Styling */
 
 .testimonial {
   padding: 64px 20px;
@@ -374,7 +374,7 @@
   margin: 0 auto;
 }
 
-/* Grid layout: Image + Content */
+/* Grid layout*/
 .testimonial-card {
   display: grid;
   grid-template-columns: 180px 1fr;
@@ -494,7 +494,7 @@
 }
 
 
-        /* Blog Section */
+        /* Blog Section Styling */
         .blog-section {
             padding: 60px 0;
         }
@@ -543,11 +543,8 @@
             gap: 8px;
         }
 
-        .blog-link:hover {
-            color: #45a049;
-        }
 
-        /* CTA Section */
+        /* CTA Section Styling */
         .cta-section {
             background: var(--silver);
             padding: 60px 0;
@@ -560,7 +557,7 @@
             color: var(--black);
         }
 
-        /* Footer */
+        /* Footer Styling */
         footer {
             background: var(--black);
             color: var(--silver);
@@ -681,7 +678,7 @@
             color: var(--primary-color);
         }
 
-        /* Responsive Design */
+        /* Responsive */
         @media (max-width: 968px) {
             nav {
                 display: none;
@@ -771,3 +768,5 @@
                 grid-template-columns: repeat(2, 1fr);
             }
         }
+
+ /* Developed And Designed By Hassan Javed --> */
