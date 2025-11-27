@@ -12,7 +12,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- Style Sheet -->
+    <!-- AOS Cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Style Sheet -->
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -22,50 +25,52 @@
     <header>
         <div class="container">
             <div class="header-content">
-                <div class="logo">
+                <a href="#home" class="logo">
                     <div class="logo-icon">
                         <img src="./images/image.png" alt="Nexcent">
                     </div>
                     <span>Nexcent</span>
-                </div>
+                </a>
 
                 <nav>
-                    <a href="#home">Home</a>
-                    <a href="#features">Features</a>
-                    <a href="#community">Community</a>
-                    <a href="#blog">Blog</a>
-                    <a href="#pricing">Pricing</a>
-                    <a href="#register" class="btn">Register Now <i class="fa-solid fa-arrow-right"></i> <a href="#"
-                            class="blog-link">
-                        </a>
+                    <a data-aos="zoom-in" data-aos-delay="100" href="#home">Home</a>
+                    <a data-aos="zoom-in" data-aos-delay="300" href="#features">Features</a>
+                    <a data-aos="zoom-in" data-aos-delay="500" href="#community">Community</a>
+                    <a data-aos="zoom-in" data-aos-delay="700" href="#blog">Blog</a>
+                    <a data-aos="zoom-in" data-aos-delay="900" href="#pricing">Pricing</a>
+                    <a href="#register" class="btn">Register Now <i class="fa-solid fa-arrow-right"></i>
                     </a>
                 </nav>
                 <button class="mobile-menu-btn" onclick="toggleMobileMenu()"><i class="fa-solid fa-bars"></i></button>
             </div>
+
             <div class="mobile-nav" id="mobileNav">
-                <a href="#home">Home</a>
-                <a href="#features">Features</a>
-                <a href="#community">Community</a>
-                <a href="#blog">Blog</a>
-                <a href="#pricing">Pricing</a>
+                <a href="#home" data-aos="fade-right" data-aos-delay="100">Home</a>
+                <a href="#features" data-aos="fade-right" data-aos-delay="200">Features</a>
+                <a href="#community" data-aos="fade-right" data-aos-delay="300">Community</a>
+                <a href="#blog" data-aos="fade-right" data-aos-delay="400">Blog</a>
+                <a href="#pricing" data-aos="fade-right" data-aos-delay="500" >Pricing</a>
                 <a href="#register" class="btn">Register Now <i class="fa-solid fa-arrow-right"></i> </a>
             </div>
+
         </div>
     </header>
     <!-- Navbar End -->
 
 
     <!-- Hero Section Start-->
-    <section class="hero" id="home">
+    <section class="hero" id="home" data-aos="fade-down">
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Lessons and insights <br><span class="highlight">from 8 years</span></h1>
-                    <p>Where to grow your business as a photographer: site or social media?</p>
+                    <h1 data-aos="fade-right" data-aos-delay="200">Lessons and insights <br><span class="highlight">from
+                            8 years</span></h1>
+                    <p data-aos="fade-right" data-aos-delay="300">Where to grow your business as a photographer: site or
+                        social media?</p>
                     <a href="#register" class="btn">Register</a>
                 </div>
                 <div class="hero-image">
-                    <img src="./images/hero.png" alt="Team collaboration">
+                    <img data-aos="zoom-in" data-aos-delay="400" src="./images/hero.png" alt="Team collaboration">
                 </div>
             </div>
             <div class="dots">
@@ -78,44 +83,51 @@
     <!-- Hero Section End-->
 
     <!-- Clients Section Start-->
-    <section class="clients" id="features">
+    <section class="clients" id="features" data-aos="fade-up">
         <div class="container">
             <h2>Our Clients</h2>
             <p>We have been working with some Fortune 500+ clients</p>
             <div class="client-logos">
-                <div class="client-logo"><img src="./images/c1.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c2.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c3.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c4.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c5.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c6.png" alt=""></div>
-                <div class="client-logo"><img src="./images/c7.png" alt=""></div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="100"><img src="./images/c1.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="200"><img src="./images/c2.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="300"><img src="./images/c3.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="400"><img src="./images/c4.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="500"><img src="./images/c5.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="600"><img src="./images/c6.png" alt="">
+                </div>
+                <div class="client-logo" data-aos="zoom-in" data-aos-delay="700"><img src="./images/c7.png" alt="">
+                </div>
             </div>
         </div>
     </section>
     <!-- Clients Section End-->
 
     <!-- Community Section Start-->
-    <section class="community" id="community">
+    <section class="community" id="community" data-aos="fade-up">
         <div class="container">
             <div class="section-header">
                 <h2>Manage your entire community<br>in a single system</h2>
                 <p>Who is Nextcent suitable for?</p>
             </div>
             <div class="cards">
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="100">
                     <div class="card-icon"><img src="./images/member.png" alt=""></div>
                     <h3>Membership Organisations</h3>
                     <p>Our membership management software provides full automation of membership renewals and payments
                     </p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-icon"><img src="./images/national.png" alt=""></div>
                     <h3>National Associations</h3>
                     <p>Our membership management software provides full automation of membership renewals and payments
                     </p>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up" data-aos-delay="300">
                     <div class="card-icon"><img src="./images/club.png" alt=""></div>
                     <h3>Clubs And Groups</h3>
                     <p>Our membership management software provides full automation of membership renewals and payments
@@ -130,10 +142,10 @@
     <section class="content-section">
         <div class="container">
             <div class="content-grid">
-                <div class="content-image">
+                <div class="content-image" data-aos="fade-right">
                     <img src="./images/person.png" alt="Community illustration">
                 </div>
-                <div class="content-text">
+                <div class="content-text" data-aos="fade-left" data-aos-delay="200">
                     <h2>The unseen of spending three years at Pixelgrade</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet justo ipsum. Sed accumsan
                         quam vitae est varius fringilla. Pellentesque placerat vestibulum lorem sed porta. Nullam mattis
@@ -148,7 +160,7 @@
 
 
     <!-- Stats Section Start-->
-    <section class="stats-section">
+    <section class="stats-section" data-aos="fade-up">
         <div class="container">
             <div class="content-grid">
                 <div class="content-text">
@@ -156,28 +168,28 @@
                     <p>We reached here with our hard work and dedication</p>
                 </div>
                 <div class="stats-grid">
-                    <div class="stat-item">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
                         <div class="stat-icon"><img src="./images/members.png" alt=""></div>
                         <div>
                             <div class="stat-number">2,245,341</div>
                             <div class="stat-label">Members</div>
                         </div>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
                         <div class="stat-icon"><img src="./images/clubs.png" alt=""></div>
                         <div>
                             <div class="stat-number">46,328</div>
                             <div class="stat-label">Clubs</div>
                         </div>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
                         <div class="stat-icon"><img src="./images/booking.png" alt=""></div>
                         <div>
                             <div class="stat-number">828,867</div>
                             <div class="stat-label">Event Bookings</div>
                         </div>
                     </div>
-                    <div class="stat-item">
+                    <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
                         <div class="stat-icon"><img src="./images/payment.png" alt=""></div>
                         <div>
                             <div class="stat-number">1,926,436</div>
@@ -191,13 +203,13 @@
     <!-- Stats Section End-->
 
     <!-- Footer Design Section Start-->
-    <section class="content-section">
+    <section class="content-section" data-aos="fade-up">
         <div class="container">
             <div class="content-grid">
-                <div class="content-image">
+                <div class="content-image" data-aos="fade-right">
                     <img src="./images/signup.png" alt="Mobile app design">
                 </div>
-                <div class="content-text">
+                <div class="content-text" data-aos="fade-left" data-aos-delay="200">
                     <h2>How to design your site footer like we did</h2>
                     <p>Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor, augue nec tincidunt molestie,
                         massa nunc varius arcu, at scelerisque elit erat a magna. Donec quis erat at libero ultrices
@@ -211,48 +223,50 @@
 
 
     <!-- Testimonial Section Start -->
-<section class="testimonial">
-  <div class="container">
-    <article class="testimonial-card">
-      <!-- Left Image -->
-      <figure class="testimonial-figure">
-        <img src="./images/tesla-img.jpg" alt="Tesla logo">
-      </figure>
+    <section class="testimonial">
+        <div class="container">
+            <article class="testimonial-card">
+                <!-- Left Image -->
+                <figure class="testimonial-figure" data-aos="fade-right">
+                    <img src="./images/tesla-img.jpg" alt="Tesla logo">
+                </figure>
 
-      <!-- Right Content -->
-      <div class="testimonial-content">
-        <p class="testimonial-text">
-          Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus tincidunt ullamcorper. 
-          Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut molestie arcu, at hendrerit elit. 
-          Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
-        </p>
+                <!-- Right Content -->
+                <div class="testimonial-content" data-aos="fade-left" data-aos-delay="200">
+                    <p class="testimonial-text">
+                        Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis sem dui, vel rutrum risus
+                        tincidunt ullamcorper.
+                        Proin eu enim metus. Vivamus sed libero ornare, tristique quam in, gravida enim. Nullam ut
+                        molestie arcu, at hendrerit elit.
+                        Morbi laoreet elit at ligula molestie, nec molestie mi blandit.
+                    </p>
 
-        <div class="author">
-          <div class="name">Tim Smith</div>
-          <div class="role">British Dragon Boat Racing Association</div>
+                    <div class="author">
+                        <div class="name">Tim Smith</div>
+                        <div class="role">British Dragon Boat Racing Association</div>
+                    </div>
+
+                    <div class="testimonial-footer">
+                        <div class="partners">
+                            <img src="./images/c1.png" alt="partner 1" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="./images/c2.png" alt="partner 2" data-aos="zoom-in" data-aos-delay="200">
+                            <img src="./images/c3.png" alt="partner 3" data-aos="zoom-in" data-aos-delay="300">
+                            <img src="./images/c4.png" alt="partner 4" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="./images/c5.png" alt="partner 5" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="./images/c6.png" alt="partner 6" data-aos="zoom-in" data-aos-delay="600">
+                        </div>
+                        <a href="#" class="meet-all">Meet all customers <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </article>
         </div>
-
-        <div class="testimonial-footer">
-          <div class="partners">
-            <img src="./images/c1.png" alt="partner 1">
-            <img src="./images/c2.png" alt="partner 2">
-            <img src="./images/c3.png" alt="partner 3">
-            <img src="./images/c4.png" alt="partner 4">
-            <img src="./images/c5.png" alt="partner 5">
-            <img src="./images/c6.png" alt="partner 6">
-          </div>
-          <a href="#" class="meet-all">Meet all customers <i class="fa-solid fa-arrow-right"></i></a>
-        </div>
-      </div>
-    </article>
-  </div>
-</section>
+    </section>
     <!-- Testimonial Section End -->
 
 
     <!-- Blog Section Start-->
 
-    <section class="blog-section" id="blog">
+    <section class="blog-section" id="blog" data-aos="fade-up">
         <div class="container">
             <div class="section-header">
                 <h2>Caring is the new marketing</h2>
@@ -260,12 +274,12 @@
             </div>
 
             <div class="blog-cards">
-                <article class="blog-card">
+                <article class="blog-card" data-aos="zoom-in" data-aos-delay="100">
                     <div class="img-wrap">
                         <img src="./images/image 18.png" alt="Blog post">
                     </div>
                     <div class="blog-content">
-                        <p class="blog-title">Creating Streamlined Safeguarding Processes with OneRen</p>
+                        <h3 class="blog-title">Creating Streamlined Safeguarding Processes with OneRen</h3>
                         <a href="#" class="blog-link">
                             Readmore <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -273,13 +287,13 @@
                     </div>
                 </article>
 
-                <article class="blog-card">
+                <article class="blog-card" data-aos="zoom-in" data-aos-delay="200">
                     <div class="img-wrap">
                         <img src="./images/image 19.png" alt="Blog post">
                     </div>
                     <div class="blog-content">
-                        <p class="blog-title">What are your safeguarding responsibilities and how can you manage them?
-                        </p>
+                        <h3 class="blog-title">What are your safeguarding responsibilities and how can you manage them?
+                        </h3>
                         <a href="#" class="blog-link">
                             Readmore <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -287,12 +301,12 @@
                     </div>
                 </article>
 
-                <article class="blog-card">
+                <article class="blog-card" data-aos="zoom-in" data-aos-delay="300">
                     <div class="img-wrap">
                         <img src="./images/image 20.png" alt="Blog post">
                     </div>
                     <div class="blog-content">
-                        <p class="blog-title">Revamping the Membership Model with Triathlon <br> Australia</p>
+                        <h3 class="blog-title">Revamping the Membership Model with Triathlon Australia</h3>
                         <a href="#" class="blog-link">
                             Readmore <i class="fa-solid fa-arrow-right"></i>
                         </a>
@@ -307,34 +321,52 @@
     <!-- CTA Section Start -->
     <section class="cta-section">
         <div class="container">
-            <h2>Pellentesque suscipit<br>fringilla libero eu.</h2>
-            <a href="#demo" class="btn">Get a Demo <i class="fa-solid fa-arrow-right"></i></a>
+            <h2 data-aos="fade-right" data-aos-delay="100">
+                Pellentesque suscipit<br>fringilla libero eu.
+            </h2>
+            <a href="#demo" class="btn" data-aos="fade-left" data-aos-delay="300">
+                Get a Demo <i class="fa-solid fa-arrow-right"></i>
+            </a>
         </div>
     </section>
     <!-- CTA Section End -->
 
-    
     <!-- Footer Start-->
     <footer>
         <div class="container">
             <div class="footer-grid">
-                <div>
+
+                <!-- Column 1 -->
+                <div data-aos="fade-right" data-aos-delay="100">
                     <div class="footer-logo">
-                        <div class="footer-logo-icon"><img src="./images/Icon.png" alt=""></div>
+                        <div class="footer-logo-icon">
+                            <img src="./images/Icon.png" alt="">
+                        </div>
                         <span>Nexcent</span>
                     </div>
-                    <p>Copyright © 2020 Nexcent ltd.<br>All rights reserved</p>
+
+                    <p data-aos="fade-up" data-aos-delay="200">
+                        Copyright © 2020 Nexcent ltd.<br>All rights reserved
+                    </p>
+
                     <div class="social-links">
-                        <a href="https://www.facebook.com" class="social-link"><i
-                                class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.twitter.com" class="social-link"><i class="fa-brands fa-twitter"></i></a>
-                        <a href="https://www.linkedin.com" class="social-link"><i
-                                class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="https://www.instagram.com" class="social-link"><i
-                                class="fa-brands fa-instagram"></i></a>
+                        <a data-aos="zoom-in" data-aos-delay="250" href="https://www.facebook.com" class="social-link">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a data-aos="zoom-in" data-aos-delay="300" href="https://www.twitter.com" class="social-link">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a data-aos="zoom-in" data-aos-delay="350" href="https://www.linkedin.com" class="social-link">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a data-aos="zoom-in" data-aos-delay="400" href="https://www.instagram.com" class="social-link">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
                     </div>
                 </div>
-                <div class="footer-column">
+
+                <!-- Column 2 -->
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="150">
                     <h3>Company</h3>
                     <ul>
                         <li><a href="#">About us</a></li>
@@ -344,7 +376,9 @@
                         <li><a href="#">Testimonials</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
+
+                <!-- Column 3 -->
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="250">
                     <h3>Support</h3>
                     <ul>
                         <li><a href="#">Help center</a></li>
@@ -354,26 +388,29 @@
                         <li><a href="#">Status</a></li>
                     </ul>
                 </div>
-                <div class="footer-column">
+
+                <!-- Column 4 -->
+                <div class="footer-column" data-aos="fade-up" data-aos-delay="350">
                     <h3>Stay up to date</h3>
-                    <div class="newsletter">
+                    <div class="newsletter" data-aos="zoom-in" data-aos-delay="450">
                         <input type="email" placeholder="Your email address">
                         <i class="fa-regular fa-paper-plane"></i>
                     </div>
                 </div>
+
             </div>
         </div>
     </footer>
     <!-- Footer End-->
 
-<!-- JS For Mobile Toggle Menu -->
+    <!-- JS For Mobile Toggle Menu -->
     <script>
         function toggleMobileMenu() {
             const mobileNav = document.getElementById('mobileNav');
             mobileNav.classList.toggle('active');
         }
 
-                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
@@ -382,11 +419,22 @@
                         behavior: 'smooth'
                     });
                 }
-                
+
                 document.getElementById('mobileNav').classList.remove('active');
             });
         });
     </script>
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+    </script>
+
 </body>
 
 </html>
